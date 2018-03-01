@@ -9,6 +9,9 @@ class BookTestCase (unittest.TestCase):
 		response=boo.create_contact("phone_number", 72233233)
 		self.assertEqual (response, {"message","contact created successfully"})
 	def test_view_contact (self):
+		boo=Book()
+		response=boo.view_contact('john', 706088144)
+		self.assertEqual (response, {'john', '706088144'})
 		pass
 	def test_update_contact (self):
 		pass
