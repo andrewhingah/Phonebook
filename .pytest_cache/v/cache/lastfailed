@@ -1,0 +1,7 @@
+{
+  "test_book.py::BookTestCase": true,
+  "test_book.py::BookTestCase::test_create_contact": true,
+  "test_book.py::BookTestCase::test_delete_contact": true,
+  "test_book.py::BookTestCase::test_update_contact": true,
+  "test_book.py::BookTestCase::test_view_contact": true
+}
